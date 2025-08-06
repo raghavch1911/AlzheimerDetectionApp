@@ -1,0 +1,20 @@
+# Ignore virtual environments
+venv/
+*/venv/
+__pycache__/
+*.pyc
+*.pyd
+*.dll
+
+# Ignore Jupyter notebooks checkpoints
+*.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+
+# Ignore large model and data files
+*.h5
+*.pkl
+*.pt
+*.joblib
+*.model
